@@ -23,6 +23,7 @@ function robot() {
   }
 
   console.log(content)
+  return content
 
 }
 

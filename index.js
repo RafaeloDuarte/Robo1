@@ -6,12 +6,8 @@ const robots = {
 
 function start(){
 
-    const content = {}
+    robots.text(robots.userInput())
 
-    robots.userInput(content)
-    robots.text(content)
-
-    console.log(content)
 }
 
 start() 
