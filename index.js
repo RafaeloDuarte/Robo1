@@ -4,9 +4,9 @@ const robots = {
     text:require('./robots/text.js')
 }
 
-function start(){
+async function start(){
 
-    robots.text(robots.userInput())
+    await robots.text(await robots.userInput())
 
 }
 
