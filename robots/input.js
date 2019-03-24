@@ -22,7 +22,6 @@ function robot() {
     return selectedPrefixText
   }
 
-  console.log(content)
   return content
 
 }
